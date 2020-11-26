@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../princess-of-the-dawn-main" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -67,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606352213848</updated>
       <workItem from="1606352215097" duration="345000" />
-      <workItem from="1606352607142" duration="458000" />
+      <workItem from="1606352607142" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -76,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606352802080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes to package.json">
+      <created>1606353085443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606353085443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,32 +101,37 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Try again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try again" />
+    <MESSAGE value="changes to package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606352800911">
+    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606353083847">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606352800911" />
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1606352561338">
+    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606353083847" />
+    <state x="483" y="268" key="FileChooserDialogImpl" timestamp="1606355950470">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
-    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1606352561338">
+    <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606355950470" />
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1606355137167">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
-    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1606352561337">
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
+    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1606355137167">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561337" />
-    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1606352561338">
+    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1606355137166">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137166" />
+    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1606355137167">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
   </component>
 </project>

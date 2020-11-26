@@ -19,7 +19,7 @@ function HandleError(response, reason, message, code){
     response.status(code || 500).json({"error:": message});
 }
 
-router.post('/', (request, response, next) => {
+router.post('/books', (request, response, next) => {
     let newBook = request.body;
     //console.log(request.body);
     if (!newBook.title || !newBook.author || !newBook.isbn || !newBook.price){
