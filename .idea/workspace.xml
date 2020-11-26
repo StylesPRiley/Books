@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/books.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ko1d4Qi711CZ8OT3bXYshtUIZ7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.7" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="" />
+      <created>1606352213848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606352213848</updated>
+      <workItem from="1606352215097" duration="345000" />
+      <workItem from="1606352607142" duration="178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1606352561338">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
+    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1606352561338">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1606352561337">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561337" />
+    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1606352561338">
+      <screen x="0" y="0" width="1405" height="1003" />
+    </state>
+    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606352561338" />
+  </component>
+</project>
