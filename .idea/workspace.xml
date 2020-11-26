@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../princess-of-the-dawn-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../princess-of-the-dawn" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +76,15 @@
       <option name="presentableId" value="Default" />
       <updated>1606352213848</updated>
       <workItem from="1606352215097" duration="345000" />
-      <workItem from="1606352607142" duration="3234000" />
+      <workItem from="1606352607142" duration="5898000" />
+      <workItem from="1606361274773" duration="1319000" />
+      <workItem from="1606363152256" duration="3866000" />
+      <workItem from="1606370834420" duration="5188000" />
+      <workItem from="1606376724559" duration="409000" />
+      <workItem from="1606377600866" duration="2015000" />
+      <workItem from="1606418313067" duration="3176000" />
+      <workItem from="1606422255322" duration="710000" />
+      <workItem from="1606427303759" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -92,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606353085443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated pug">
+      <created>1606356603474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606356603474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,36 +117,45 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Try again" />
     <MESSAGE value="changes to package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to package.json" />
+    <MESSAGE value="updated pug" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606353083847">
+    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606356602116">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606353083847" />
-    <state x="483" y="268" key="FileChooserDialogImpl" timestamp="1606355950470">
+    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
+    <state x="483" y="268" key="FileChooserDialogImpl" timestamp="1606364384501">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606355950470" />
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1606355137167">
-      <screen x="0" y="0" width="1405" height="1003" />
+    <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606364384501" />
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606427348520">
+      <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
-    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1606355137167">
-      <screen x="0" y="0" width="1405" height="1003" />
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606427348520" />
+    <state width="1352" height="269" key="GridCell.Tab.0.bottom/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
+    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606427348520">
+      <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
-    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1606355137166">
-      <screen x="0" y="0" width="1405" height="1003" />
+    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606427348520" />
+    <state width="1352" height="269" key="GridCell.Tab.0.center/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
+    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
+    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606427348520">
+      <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137166" />
-    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1606355137167">
-      <screen x="0" y="0" width="1405" height="1003" />
+    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606427348520" />
+    <state width="1352" height="269" key="GridCell.Tab.0.left/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687644" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
+    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606427348520">
+      <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606355137167" />
+    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606427348520" />
+    <state width="1352" height="269" key="GridCell.Tab.0.right/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
+    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
   </component>
 </project>

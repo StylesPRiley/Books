@@ -12,6 +12,7 @@ let express = require('express');
 let router = express.Router();
 // For the Data Model
 let BookSchema = require('../models/books');
+const db = require("http");
 
 
 function HandleError(response, reason, message, code){
@@ -19,7 +20,7 @@ function HandleError(response, reason, message, code){
     response.status(code || 500).json({"error:": message});
 }
 
-router.post('/books', (request, response, next) => {
+router.post('/', (request, response, next) => {
     let newBook = request.body;
     //console.log(request.body);
     if (!newBook.title || !newBook.author || !newBook.isbn || !newBook.price){
@@ -41,17 +42,6 @@ router.post('/books', (request, response, next) => {
     }
 });
 
-//GET All Books
-router.get('/books', (request, response, next) => {
-    db.get().query(
-        function SelectQueryHandler(err, books, fields){
-            if (err)
-                return done(err);
-            response.send(books);
-        });
-});
-
-//GET Books by Author
 router.get('/', (request, response, next) => {
     let name = request.query['name'];
     if (name){
@@ -77,62 +67,50 @@ router.get('/', (request, response, next) => {
     }
 } );
 
-//GET Books by ISBN
-router.get('/', (request, response, next) => {
-    let number = request.query['number'];
-    if (number){
-        BookSchema
-            .find({":isbn": number})
-            .exec( (error, books) => {
-                if (error){
-                    response.send({"error": error});
-                }else{
-                    response.send(books);
-                }
-            });
-    }else{
-        BookSchema
-            .find()
-            .exec( (error, books) => {
-                if (error){
-                    response.send({"error": error});
-                }else{
-                    response.send(books);
-                }
-            });
-    }
-} );
-
-//PATCH by id
-router.patch('/:id', (request, response, next) =>{
+router.get('/:isbn', (request, response, next) =>{
     BookSchema
-        .findById(request.params.id, (error, result)=>{
+        .findOne({"isbn": request.params.isbn}, (error, result) =>{
             if (error) {
                 response.status(500).send(error);
-            }else if (result){
-                if (request.body._id){
-                    delete request.body._id;
-                }
-                for (let field in request.body){
-                    result[field] = request.body[field];
-                }
-                result.save((error, book)=>{
-                    if (error){
-                        response.status(500).send(error);
-                    }
-                    response.send(book);
-                });
+            }
+            if (result){
+                response.send(result);
             }else{
-                response.status(404).send({"id": request.params.id, "error":  "Not Found"});
+                response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
             }
 
         });
 });
 
-//DELETE by id
-router.delete('/:id', (request, response, next) =>{
+//PATCH by isbn
+router.patch('/:isbn', (request, response, next) =>{
+    FriendSchema
+        .findById(request.params.isbn, (error, result)=>{
+            if (error) {
+                response.status(500).send(error);
+            }else if (result){
+                if (request.body.isbn){
+                    delete request.body.isbn;
+                }
+                for (let field in request.body){
+                    result[field] = request.body[field];
+                }
+                result.save((error, friend)=>{
+                    if (error){
+                        response.status(500).send(error);
+                    }
+                    response.send(friend);
+                });
+            }else{
+                response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
+            }
+
+        });
+});
+
+router.delete('/:isbn', (request, response, next) =>{
     BookSchema
-        .findById(request.params.id, (error, result)=>{
+        .findById(request.params.isbn, (error, result)=>{
             if (error) {
                 response.status(500).send(error);
             }else if (result){
@@ -140,10 +118,10 @@ router.delete('/:id', (request, response, next) =>{
                     if (error){
                         response.status(500).send(error);
                     }
-                    response.send({"deletedId": request.params.id});
+                    response.send({"deletedISBN": request.params.isbn});
                 });
             }else{
-                response.status(404).send({"id": request.params.id, "error":  "Not Found"});
+                response.status(404).send({"id": request.params.isbn, "error":  "Not Found"});
             }
         });
 });
