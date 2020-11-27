@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors');
 
 var db = require('./database');
 var indexRouter = require('./routes/index');
@@ -14,12 +15,11 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.get('/without-cors', (req, res, next) => {
-  res.json({msg: 'Works! 🎉'})
-})
-
+  res.json({msg: 'Works! 🎉'});
+});
 app.get('/with-cors', cors(), (req, res, next) => {
-  res.json({msg: 'Works! 🎉'})
-})
+  res.json({msg: 'Works! 🎉'});
+});
 
 app.use(logger('dev'));
 app.use(express.json());

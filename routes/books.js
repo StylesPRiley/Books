@@ -14,13 +14,7 @@ let router = express.Router();
 // For the Data Model
 let BookSchema = require('../models/books');
 const db = require("http");
-app.get('/without-cors', (req, res, next) => {
-    res.json({msg: 'Works! 🎉'})
-})
 
-app.get('/with-cors', cors(), (req, res, next) => {
-    res.json({msg: 'Works! 🎉'})
-})
 
 
 function HandleError(response, reason, message, code){

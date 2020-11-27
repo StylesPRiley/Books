@@ -12,8 +12,6 @@
     <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
@@ -63,13 +61,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,7 +81,8 @@
       <workItem from="1606427303759" duration="1565000" />
       <workItem from="1606455133721" duration="704000" />
       <workItem from="1606507216047" duration="460000" />
-      <workItem from="1606518513219" duration="752000" />
+      <workItem from="1606518513219" duration="1201000" />
+      <workItem from="1606519944714" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606507675392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made changes with require cors">
+      <created>1606519292037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606519292037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,44 +139,45 @@
     <MESSAGE value="updated pug" />
     <MESSAGE value="done" />
     <MESSAGE value="deleted procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted procfile" />
+    <MESSAGE value="made changes with require cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="made changes with require cors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606507673785">
+    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606519290930">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606507673785" />
+    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606519290930" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="483" y="268" key="FileChooserDialogImpl" timestamp="1606364384501">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606364384501" />
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606518947045">
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606520182500">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606518947045" />
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606520182500" />
     <state width="1352" height="269" key="GridCell.Tab.0.bottom/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606518947044">
+    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606520182499">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606518947044" />
+    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606520182499" />
     <state width="1352" height="269" key="GridCell.Tab.0.center/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606518947043">
+    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606520182498">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606518947043" />
+    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606520182498" />
     <state width="1352" height="269" key="GridCell.Tab.0.left/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687644" />
     <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606518947044">
+    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606520182499">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606518947044" />
+    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606520182499" />
     <state width="1352" height="269" key="GridCell.Tab.0.right/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
   </component>

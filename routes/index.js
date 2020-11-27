@@ -6,12 +6,5 @@ var cors = require('cors');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Books' });
 });
-app.get('/without-cors', (req, res, next) => {
-  res.json({msg: 'Works! 🎉'})
-})
-
-app.get('/with-cors', cors(), (req, res, next) => {
-  res.json({msg: 'Works! 🎉'})
-})
 
 module.exports = router;
