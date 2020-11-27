@@ -13,6 +13,13 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+app.get('/without-cors', (req, res, next) => {
+  res.json({msg: 'Works! 🎉'})
+})
+
+app.get('/with-cors', cors(), (req, res, next) => {
+  res.json({msg: 'Works! 🎉'})
+})
 
 app.use(logger('dev'));
 app.use(express.json());
