@@ -9,11 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1606507216047" duration="460000" />
       <workItem from="1606518513219" duration="1201000" />
       <workItem from="1606519944714" duration="868000" />
-      <workItem from="1606522505086" duration="181000" />
+      <workItem from="1606522505086" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -133,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606520201499</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="made changes with require cors">
+      <created>1606522698873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606522698873</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,10 +157,10 @@
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606520200275">
+    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606522697846">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606520200275" />
+    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606522697846" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="483" y="268" key="FileChooserDialogImpl" timestamp="1606364384501">
       <screen x="0" y="0" width="1405" height="1003" />
