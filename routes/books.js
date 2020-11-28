@@ -86,7 +86,7 @@ router.get('/:isbn', (request, response, next) =>{
 
 //PATCH by isbn
 router.patch('/:isbn', (request, response, next) =>{
-    FriendSchema
+    BookSchema
         .findById(request.params.isbn, (error, result)=>{
             if (error) {
                 response.status(500).send(error);
@@ -112,7 +112,7 @@ router.patch('/:isbn', (request, response, next) =>{
 
 router.delete('/:isbn', (request, response, next) =>{
     BookSchema
-        .findById(request.params.isbn, (error, result)=>{
+        .findOne({"isbn": request.params.isbn}, (error, result) =>{
             if (error) {
                 response.status(500).send(error);
             }else if (result){
