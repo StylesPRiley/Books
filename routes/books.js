@@ -45,7 +45,7 @@ router.post('/', (request, response, next) => {
 });
 
 router.get('/', (request, response, next) => {
-    let name = request.query['name'];
+    let name = request.query['author'];
     if (name){
         BookSchema
             .find({"author": name})
