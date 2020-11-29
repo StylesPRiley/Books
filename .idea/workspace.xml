@@ -59,6 +59,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,7 +104,8 @@
       <workItem from="1606679099817" duration="1808000" />
       <workItem from="1606681089475" duration="2063000" />
       <workItem from="1606686518953" duration="618000" />
-      <workItem from="1606688433956" duration="111000" />
+      <workItem from="1606688433956" duration="316000" />
+      <workItem from="1606689007051" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -183,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606674187726</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="made adjustments to delete and get">
+      <created>1606688555405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606688555406</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,38 +221,38 @@
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606674186598">
+    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606688554464">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606674186598" />
+    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606688554464" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="476" y="268" key="FileChooserDialogImpl" timestamp="1606605663978">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
     <state x="476" y="268" key="FileChooserDialogImpl/0.0.1386.1003@0.0.1386.1003" timestamp="1606605663978" />
     <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606364384501" />
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606684631873">
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606690544452">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606684631873" />
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606690544452" />
     <state width="1352" height="269" key="GridCell.Tab.0.bottom/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606684631871">
+    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606690544452">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606684631871" />
+    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606690544452" />
     <state width="1352" height="269" key="GridCell.Tab.0.center/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606684631871">
+    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606690544451">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606684631871" />
+    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606690544451" />
     <state width="1352" height="269" key="GridCell.Tab.0.left/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687644" />
     <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606684631872">
+    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606690544452">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606684631872" />
+    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606690544452" />
     <state width="1352" height="269" key="GridCell.Tab.0.right/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
   </component>
