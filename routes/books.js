@@ -54,6 +54,7 @@ router.get('/', (request, response, next) => {
                     response.send({"error": error});
                 }else{
                     response.send(books);
+
                 }
             });
     }else{
@@ -69,30 +70,20 @@ router.get('/', (request, response, next) => {
     }
 } );
 
-router.get('/', (request, response, next) =>{
-    let name = request.query['isbn'];
-    if (name){
-        BookSchema
-            .find({"isbn": name})
-            .exec( (error, books) => {
-                if (error){
-                    response.send({"error": error});
-                }else{
-                    response.send(books);
-                }
-            });
-    }else{
-        BookSchema
-            .find()
-            .exec( (error, books) => {
-                if (error){
-                    response.send({"error": error});
-                }else{
-                    response.send(books);
-                }
-            });
-    }
-} );
+router.get('/:isbn', (request, response, next) =>{
+    BookSchema
+        .findOne({"isbn": request.params.isbn}, (error, result) =>{
+            if (error) {
+                response.status(500).send(error);
+            }
+            if (result){
+                response.send(result);
+            }else{
+                response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
+            }
+
+        });
+});
 
 //PATCH by isbn
 router.patch('/:isbn', (request, response, next) =>{
@@ -119,20 +110,21 @@ router.patch('/:isbn', (request, response, next) =>{
 
         });
 });
-
 router.delete('/:isbn', (request, response, next) =>{
-    let result = request.query['isbn'];
-    if (error) {
-        response.status(500).send(error);
-    }else if (result){
-        result.remove((error)=>{
-            if (error){
+    BookSchema
+        .findById(request.params.isbn, (error, result)=>{
+            if (error) {
                 response.status(500).send(error);
+            }else if (result){
+                result.remove((error)=>{
+                    if (error){
+                        response.status(500).send(error);
+                    }
+                    response.send({"deletedBook": request.params.isbn});
+                });
+            }else{
+                response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
             }
-            response.send({"deletedISBN": result});
         });
-    }else{
-        response.status(404).send({"isbn": result, "error":  "Not Found"});
-    }
 });
 module.exports = router;
