@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
+    <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="ma">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,6 +99,7 @@
       <workItem from="1606618166758" duration="391000" />
       <workItem from="1606622027483" duration="2076000" />
       <workItem from="1606627855759" duration="449000" />
+      <workItem from="1606673511181" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -191,10 +200,10 @@
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606615135989">
+    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606673655749">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606615135989" />
+    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606673655749" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="476" y="268" key="FileChooserDialogImpl" timestamp="1606605663978">
       <screen x="0" y="0" width="1386" height="1003" />
