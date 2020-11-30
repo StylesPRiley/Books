@@ -37,8 +37,6 @@ router.post('/', (request, response, next) => {
     let newBook = request.body;
     if (!newBook.title || !newBook.author || !newBook.isbn || !newBook.price){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
-    }else if(!isbValidator.Validate(newBook.isbn)){
-        HandleError(response, 'Invalid Data', 'Invalid ISBN', 500);
     }else{
         let book = new BookSchema({
             title: newBook.title,
