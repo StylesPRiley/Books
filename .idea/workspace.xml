@@ -11,9 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,8 @@
       <workItem from="1606697354787" duration="1064000" />
       <workItem from="1606703779435" duration="1260000" />
       <workItem from="1606705466834" duration="643000" />
-      <workItem from="1606706479897" duration="989000" />
+      <workItem from="1606706479897" duration="1306000" />
+      <workItem from="1606708495123" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606705479740</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="done!">
+      <created>1606707482720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606707482720</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,45 +233,46 @@
     <MESSAGE value="made changes with require cors" />
     <MESSAGE value="made changes to delete function" />
     <MESSAGE value="made adjustments to delete and get" />
-    <option name="LAST_COMMIT_MESSAGE" value="made adjustments to delete and get" />
+    <MESSAGE value="done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="done!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606705478520">
+    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606707481565">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606705478520" />
+    <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606707481565" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="476" y="268" key="FileChooserDialogImpl" timestamp="1606605663978">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
     <state x="476" y="268" key="FileChooserDialogImpl/0.0.1386.1003@0.0.1386.1003" timestamp="1606605663978" />
     <state x="483" y="268" key="FileChooserDialogImpl/0.0.1405.1003@0.0.1405.1003" timestamp="1606364384501" />
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606707275008">
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom" timestamp="1606707786977">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606707275008" />
+    <state width="1343" height="269" key="GridCell.Tab.0.bottom/0.0.1386.1003@0.0.1386.1003" timestamp="1606707786977" />
     <state width="1352" height="269" key="GridCell.Tab.0.bottom/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606707275007">
+    <state width="1343" height="269" key="GridCell.Tab.0.center" timestamp="1606707786977">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606707275007" />
+    <state width="1343" height="269" key="GridCell.Tab.0.center/0.0.1386.1003@0.0.1386.1003" timestamp="1606707786977" />
     <state width="1352" height="269" key="GridCell.Tab.0.center/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606707275007">
+    <state width="1343" height="269" key="GridCell.Tab.0.left" timestamp="1606707786976">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606707275007" />
+    <state width="1343" height="269" key="GridCell.Tab.0.left/0.0.1386.1003@0.0.1386.1003" timestamp="1606707786976" />
     <state width="1352" height="269" key="GridCell.Tab.0.left/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687644" />
     <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
-    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606707275007">
+    <state width="1343" height="269" key="GridCell.Tab.0.right" timestamp="1606707786977">
       <screen x="0" y="0" width="1386" height="1003" />
     </state>
-    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606707275007" />
+    <state width="1343" height="269" key="GridCell.Tab.0.right/0.0.1386.1003@0.0.1386.1003" timestamp="1606707786977" />
     <state width="1352" height="269" key="GridCell.Tab.0.right/0.0.1395.1003@0.0.1395.1003" timestamp="1606373687646" />
     <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606367020755" />
   </component>
