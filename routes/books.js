@@ -7,13 +7,24 @@
 // - PATCH / PUT
 // - DELETE
 
+// Here we are going to code the API!!!!
+// REST application
+// Our API works over HTTP
+// Using request from the HTTP verbs:
+// - POST
+// - GET
+// - PATCH / PUT
+// - DELETE
+
 // For the routes
 let express = require('express');
+let isbValidator = require('isbn-validate');
 let cors = require('cors');
 let router = express.Router();
 // For the Data Model
 let BookSchema = require('../models/books');
 const db = require("http");
+
 
 
 
@@ -24,9 +35,10 @@ function HandleError(response, reason, message, code){
 
 router.post('/', (request, response, next) => {
     let newBook = request.body;
-    //console.log(request.body);
     if (!newBook.title || !newBook.author || !newBook.isbn || !newBook.price){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
+    }else if(!isbValidator.Validate(newBook.isbn)){
+        HandleError(response, 'Invalid Data', 'Invalid ISBN', 500);
     }else{
         let book = new BookSchema({
             title: newBook.title,
@@ -43,7 +55,6 @@ router.post('/', (request, response, next) => {
         });
     }
 });
-
 router.get('/', (request, response, next) => {
     let name = request.query['author'];
     if (name){
@@ -86,9 +97,11 @@ router.get('/:isbn', (request, response, next) =>{
 });
 
 //PATCH by isbn
+//PATCH by isbn
 router.patch('/:isbn', (request, response, next) =>{
+    console.log("request  " + JSON.stringify(request.body));
     BookSchema
-        .findOne(request.body.isbn, (error, result)=>{
+        .findOne({"isbn": request.body.isbn}, (error, result) =>{
             if (error) {
                 response.status(500).send(error);
             }else if (result){
@@ -98,11 +111,11 @@ router.patch('/:isbn', (request, response, next) =>{
                 for (let field in request.body){
                     result[field] = request.body[field];
                 }
-                result.save((error, friend)=>{
+                result.save((error, book)=>{
                     if (error){
                         response.status(500).send(error);
                     }
-                    response.send(friend);
+                    response.send(book);
                 });
             }else{
                 response.status(404).send({"isbn": request.body.isbn, "error":  "Not Found"});
@@ -110,6 +123,7 @@ router.patch('/:isbn', (request, response, next) =>{
 
         });
 });
+
 router.delete('/:isbn', (request, response, next) =>{
     BookSchema
         .findOne({"isbn": request.params.isbn}, (error, result) =>{
