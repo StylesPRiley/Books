@@ -88,7 +88,7 @@ router.get('/:isbn', (request, response, next) =>{
 //PATCH by isbn
 router.patch('/:isbn', (request, response, next) =>{
     BookSchema
-        .findById(request.params.isbn, (error, result)=>{
+        .findOne(request.body.isbn, (error, result)=>{
             if (error) {
                 response.status(500).send(error);
             }else if (result){
@@ -105,7 +105,7 @@ router.patch('/:isbn', (request, response, next) =>{
                     response.send(friend);
                 });
             }else{
-                response.status(404).send({"isbn": request.params.isbn, "error":  "Not Found"});
+                response.status(404).send({"isbn": request.body.isbn, "error":  "Not Found"});
             }
 
         });
