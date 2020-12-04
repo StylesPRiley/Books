@@ -25,7 +25,7 @@ let router = express.Router();
 let BookSchema = require('../models/books');
 const db = require("http");
 
-var isValidIsbn = function(str) {
+var IsIsbnValid = function(str) {
 
     var sum,
         weight,
@@ -81,7 +81,7 @@ router.post('/', (request, response, next) => {
     let newBook = request.body;
     if (!newBook.title || !newBook.author || !newBook.isbn || !newBook.price){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
-    }else if(!isValidIsbn(newBook.isbn)){
+    }else if(!IsIsbnValid(newBook.isbn)){
         HandleError(response, 'Invalid Data', 'Invalid ISBN', 500);
     }else{
         let book = new BookSchema({
