@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f3d81a4-2f4a-48fd-afb8-03bedd9832d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <workItem from="1606714404812" duration="9000" />
       <workItem from="1606715314122" duration="94000" />
       <workItem from="1606717963664" duration="534000" />
-      <workItem from="1607045648378" duration="1306000" />
+      <workItem from="1607045648378" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="Try again">
       <created>1606352802080</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606714281179</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes to isbn validate">
+      <created>1607047083450</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607047083450</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,16 +267,18 @@
     <MESSAGE value="made changes to delete function" />
     <MESSAGE value="made adjustments to delete and get" />
     <MESSAGE value="done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="done!" />
+    <MESSAGE value="changes to isbn validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to isbn validate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606352301887">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606352301887" />
-    <state x="272" y="82" key="CommitChangelistDialog2" timestamp="1606714280063">
-      <screen x="0" y="0" width="1386" height="1003" />
+    <state x="267" y="82" key="CommitChangelistDialog2" timestamp="1607047082173">
+      <screen x="0" y="0" width="1359" height="1003" />
     </state>
+    <state x="267" y="82" key="CommitChangelistDialog2/0.0.1359.1003@0.0.1359.1003" timestamp="1607047082173" />
     <state x="272" y="82" key="CommitChangelistDialog2/0.0.1386.1003@0.0.1386.1003" timestamp="1606714280063" />
     <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606356602116" />
     <state x="476" y="268" key="FileChooserDialogImpl" timestamp="1606605663978">
